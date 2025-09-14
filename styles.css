@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* border: 2px solid black; */
+    height: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-collapse {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+ul {
+    /* border: 2px solid green; */
+    gap: 6px;
+    font-size: 18px;
+}
+
+ul>li>a {
+    color: black !important;
+}
+
+@media(max-width:320px) {
+    ul>li>a {
+        color: rgb(255, 254, 254) !important;
+    }
+}
+
+
+.carousel-item>img {
+    /* border: 10px solid green; */
+    height: 730px;
+    object-fit: fill;
+    display: block !important;
+}
+
+@media (min-width:319px) and (max-width:425px) {
+
+    .carousel-inner {
+        height: 450px;
+    }
+
+    .carousel-item>img {
+        height: 450px;
+        object-fit: fill;
+        display: block !important;
+    }
+}
+
+@media (max-width:320px){
+    .Quote1>h1{
+        position: absolute;
+        top: 10%;
+        left: -25%;
+        font-size: 25px;
+        width: 250px;
+        height: 100px;
+    }
+
+    .Quote2>h1{
+        position: absolute;
+        top: 10%;
+        left: -25%;
+        font-size: 25px;
+        width: 250px;
+        height: 100px;
+    }
+
+    .Quote3>h1{
+        position: absolute;
+        top: 10%;
+        left: -25%;
+        font-size: 25px;
+        width: 250px;
+        height: 100px;
+    }
+}
+
+
+.Quote1 {
+    width: 350px;
+    height: 150px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+}
+
+.Quote2 {
+    width: 350px;
+    height: 150px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: black;
+}
+
+.Quote3 {
+    width: 350px;
+    height: 150px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: black;
+}
+
+.content {
+    /* border: 2px solid red; */
+    height: 140px;
+    width: 330px;
+    color: white;
+}
+
+.content>h1 {
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+.con1 {
+    /* border: 2px solid salmon; */
+    /* height: 1000px; */
+    background-color: #FFEDED;
+}
+
+.row1>h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+@media (min-width:320px) and (max-width:426px){
+    .row1>h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 35px;
+}
+}
+
+.row1 {
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+}
+
+.box {
+    /* border: 2px solid greenyellow; */
+    height: 350px;
+    margin-top: 30px !important;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.box>figure {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box>figure>figcaption>h4 {
+    font-weight: bold;
+}
+
+.text1 {
+    /* border: 2px solid black; */
+    height: 125px;
+}
+
+.row2 {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2>h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:320px) and (max-width:426px){
+    .row2>h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+.card {
+    margin-top: 30px !important;
+    border-radius: 20px !important;
+}
+
+.menu {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 90% !important;
+    margin-left: 15px;
+    height: 220px;
+}
+
+.card-body>h2 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link {
+    margin-left: 180px;
+}
+
+
+.con2 {
+    /* border: 2px solid black; */
+    height: 180px;
+    margin-top: 25px;
+}
+
+.con2>h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+@media (min-width:320px) and (max-width:426px){
+    .con2>h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+}
+
+.con2>figure {
+    text-align: center;
+}
+
+
+@media (min-width:320px) and (max-width:426px) {
+    .con2>figure>img {
+        width: 70px;
+    }
+}
+
+.con2>figure>img {
+    margin-left: 13px;
+}
+
+
+.container6 {
+    height: 350px;
+    border: 2px solid;
+    background-color: rgb(49, 48, 48);
+}
+
+
+.container6 img {
+    margin-top: 100px;
+}
+
+.container6>h2 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.container6>p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
