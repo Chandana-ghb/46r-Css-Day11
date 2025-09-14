@@ -57,30 +57,33 @@ ul>li>a {
 
 @media (max-width:320px){
     .Quote1>h1{
-        position: absolute;
+        /* position: absolute;
         top: 10%;
         left: -25%;
         font-size: 25px;
         width: 250px;
-        height: 100px;
+        height: 100px; */
+        display: none;
     }
 
     .Quote2>h1{
-        position: absolute;
+        /* position: absolute;
         top: 10%;
         left: -25%;
         font-size: 25px;
         width: 250px;
-        height: 100px;
+        height: 100px; */
+        display: none;
     }
 
     .Quote3>h1{
-        position: absolute;
+        /* position: absolute;
         top: 10%;
         left: -25%;
         font-size: 25px;
         width: 250px;
-        height: 100px;
+        height: 100px; */
+        display: none;
     }
 }
 
